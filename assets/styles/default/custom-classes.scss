@@ -1,0 +1,239 @@
+
+.edoc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edoc-layout-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: columns(12, 1);
+  padding: 0 var(--gap);
+  margin: 0 auto;
+}
+
+.edoc-wrapped-content {
+  width: 100%;
+  max-width: columns(7, 1);
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  &--wider {
+    max-width: columns(9, 1);
+    padding-right: 0;
+  }
+}
+
+// A block that cover content area and the surrounding gaps,
+// with a possible background.
+.edoc-wide-block {
+  position: relative;
+  left: calc(var(--gap) * -1);
+  width: calc(100% + (var(--gap) * 2));
+  padding: var(--gap);
+  border-radius: $border-radius--md;
+  &--dark {
+    color: $white;
+    background-color: $black;
+    a {
+      color: $color-light-blue;
+      text-decoration: none;
+    }
+    li:before {
+      background-color: $white;
+    }
+  }
+  &--grey {
+    background-color: $background-grey;
+  }
+}
+
+// A block used to wrap items that must overflow the content area,
+// used mostly for "background decorations".
+// A 'block' inside this block is needed to center it correctly
+.edoc-full-screen-wrapper {
+  position: absolute;
+  right: calc(-50vw + #{columns(6, -0.5)});
+  @include just-safari {
+    // Adjustment related with scrollbar calculation on Safari
+    right: calc(-50vw + #{columns(6, -0.2)});
+  }
+  width: 100vw;
+  overflow-x: hidden;
+  & > * {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    max-width: columns(12);
+    margin: 0 auto;
+  }
+}
+
+.edoc-cover-image {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+// A class for texts that must present ellipsis when a word is too long,
+// but should occupy more than one line if not
+.edoc-ellipsis {
+  word-break: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// An info block with different icons and colors
+// depending on the type of info presented
+.custom-block {
+  --padding: 3rem;
+  --margin: 1.25rem;
+  --color: #{$black};
+  position: relative;
+  padding: calc(var(--padding) / 2) var(--padding);
+  margin: 1.25rem 0;
+  color: $black;
+  font-size: $font-size--md;
+  font-family: $font-family--secondary;
+  background-color: $neutral--10;
+  border-radius: 0 $border-radius--md $border-radius--md 0;
+  border-left: rem(10px) solid var(--color);
+  &::before {
+    --width: #{rem(25px)};
+    mask: var(--mask) no-repeat;
+    content: '';
+    position: absolute;
+    left: calc(0px + var(--width) / 2);
+    width: var(--width);
+    height: var(--width);
+    background-color: var(--color);
+  }
+  &-title {
+    font-family: $font-family--main;
+    letter-spacing: $letter-spacing--sm;
+    font-weight: $font-weight--semibold;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+  // Minifying margins inside custom-blocks
+  & > *:not(&-title) {
+    margin: 0 0 rem(20px);
+  }
+  & > *:last-child {
+    margin: 0;
+  }
+  // Simplifying headings styles inside custom-blocks
+  .edoc-header-anchor {
+    display: none;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-family--main;
+    &[id] {
+      padding: rem(10px) 0 0;
+    }
+  }
+  h2 {
+    font-size: $font-size--xl-plus;
+  }
+  h3 {
+    font-size: $font-size--lg;
+  }
+  h4,
+  h5,
+  h6 {
+    font-size: $font-size--md;
+  }
+  &.note {
+    --color: #{$color-light-blue};
+    --mask: url('../assets/icons/note.svg');
+  }
+  &.warning {
+    --color: #{$color-yellow};
+    --mask: url('../assets/icons/alert.svg');
+  }
+  &.danger {
+    --color: #{$color-red};
+    &::before {
+      content: '!';
+      background-color: transparent;
+      color: $color-red;
+      font-size: $font-size--xl;
+      font-weight: $font-weight--medium;
+      text-align: center;
+      line-height: var(--width);
+    }
+  }
+  &.interact {
+    --color: #{$color-green};
+    --mask: url('../assets/icons/interactive.svg');
+  }
+  &.design {
+    --mask: url('../assets/icons/design.svg');
+  }
+  &.develop {
+    --mask: url('../assets/icons/develop.svg');
+  }
+  &.details {
+    &::before {
+      content: none;
+    }
+    summary {
+      cursor: pointer;
+      text-transform: initial;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint__tablet--max) {
+  .edoc-layout-wrapper {
+    padding: 0 #{$tablet-gap};
+  }
+  .edoc-wrapped-content {
+    max-width: none;
+    padding: 0;
+  }
+  .edoc-wide-block {
+    left: calc(-1 * #{$mobile-gap});
+    width: calc(100% + #{$mobile-gap} + #{$mobile-gap});
+    padding: var(--gap);
+  }
+  .edoc-full-screen-wrapper {
+    right: calc(-1 * #{$tablet-gap});
+  }
+  .custom-block {
+    font-size: $font-size--sm;
+    h2 {
+      font-size: $font-size--xl;
+    }
+    h3 {
+      font-size: $font-size--md;
+    }
+    h4,
+    h5,
+    h6 {
+      font-size: $font-size--sm;
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint__mobile--max) {
+  .edoc-layout-wrapper {
+    padding: 0 #{$mobile-gap};
+  }
+  .edoc-wide-block {
+    border-radius: 0;
+  }
+  .edoc-full-screen-wrapper {
+    right: calc(-1 * #{$mobile-gap});
+  }
+  .custom-block {
+    padding-right: rem(20px);
+  }
+}

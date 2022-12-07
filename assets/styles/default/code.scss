@@ -1,0 +1,126 @@
+
+pre,
+code {
+  font-family: $font-family--monospace;
+  font-size: $font-size--sm;
+}
+
+code {
+  padding: rem(3px) rem(6px) rem(1px);
+  border: 1px solid $neutral--50;
+  border-radius: $border-radius--sm;
+  background-color: $neutral--25;
+  line-height: $line-height--md;
+}
+
+.extra-class {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: rem(8px) rem(15px);
+    color: $neutral--75;
+    background-color: inherit;
+  }
+
+  @include generate-code-tags();
+}
+
+pre {
+  position: relative;
+  padding: rem(30px) rem(20px) rem(15px);
+  border-radius: $border-radius--md;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  line-height: $line-height--md;
+  color: $white;
+  background-color: $background-black;
+  overflow-x: auto;
+  scrollbar-color: $neutral--25 transparent;
+  scrollbar-width: thin;
+
+  &::before {
+    position: absolute;
+    top: rem(-20px);
+    right: 0;
+    padding: rem(10px) rem(15px) rem(5px) rem(5px);
+    color: $neutral--50;
+  }
+
+  &::-webkit-scrollbar {
+    height: rem(14px);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border: rem(3px) solid $neutral--90;
+    border-radius: $border-radius--md;
+    background-color: $neutral--25;
+    transition: background-color $transitions-duration--short ease;
+    &:hover {
+      background-color: $neutral--50;
+    }
+  }
+
+  code {
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    line-height: $line-height--md;
+  }
+
+  .comment {
+    color: $neutral--90;
+  }
+
+  .punctuation {
+    color: $color-yellow;
+  }
+
+  .keyword,
+  .tag,
+  .property {
+    color: $color-light-blue;
+  }
+
+  .parameter,
+  .operator {
+    color: $color-purple--60;
+  }
+
+  .number,
+  .boolean, {
+    color: $color-blue;
+  }
+
+  .attr-name,
+  .selector {
+    color: $color-red;
+  }
+
+  .function,
+  .rule {
+    color: $color-orange;
+  }
+
+  .string,
+  .template-string,
+  .attr-value,
+  .variable {
+    color: $color-green;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint__small-tablet--max) {
+  pre {
+    font-size: $font-size--xs;
+  }
+}
+
+@media only screen and (max-width: $breakpoint__mobile--max) {
+  pre {
+    white-space: pre;
+  }
+}

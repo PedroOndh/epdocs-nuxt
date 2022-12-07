@@ -1,0 +1,22 @@
+$base-gap: 30px;
+$mobile-gap: rem($base-gap);
+$tablet-gap: rem($base-gap * 2);
+
+$border-radius--xs: #{rem(2px)};
+$border-radius--sm: #{rem(4px)};
+$border-radius--md: #{rem(8px)};
+$border-radius--lg: #{rem(16px)};
+$border-radius--xl: #{rem(32px)};
+$border-radius--round: 99999px;
+
+// Shadows for white items
+$shadow--s: 0 0 rem(2px) 0 rgba($black, 0.24);
+$shadow--m: 0 rem(2px) rem(6px) 0 rgba($black, 0.12);
+$shadow--l: 0 rem(4px) rem(12px) 0 rgba($black, 0.12);
+$shadow--xl: 0 rem(4px) rem(12px) 0 rgba($black, 0.12);
+
+// Shadows for dark items
+$shadow--dark-s: 0 0 rem(2px) 0 rgba($black, 0.48);
+$shadow--dark-m: 0 rem(2px) rem(6px) 0 rgba($black, 0.24);
+$shadow--dark-l: 0 rem(2px) rem(6px) 0 rgba($black, 0.24);
+$shadow--dark-xl: 0 rem(8px) rem(24px) 0 rgba($black, 0.24);

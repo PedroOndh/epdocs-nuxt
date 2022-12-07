@@ -1,0 +1,20 @@
+:root {
+  --column: #{rem(112px)};
+  --gap: #{rem(31px)};
+  --sidebar: #{columns(3)};
+  --yellow: #{$color-yellow--60};
+  --red: #{$color-red--60};
+  --purple: #{$color-purple--60};
+  --orange: #{$color-orange--60};
+  --blue: #{$color-blue--60};
+  --light-blue: #{$color-light-blue--60};
+  --green: #{$color-green--60};
+  --grey: #{$neutral--50};
+  @media screen and (max-width: $breakpoint__small-desktop--max) {
+    --column: 7.95vw;
+    --gap: 2.2vw;
+  }
+  @media screen and (max-width: $breakpoint__tablet--max) {
+    --gap: #{$mobile-gap}
+  }
+}

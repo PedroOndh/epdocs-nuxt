@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   ],
   content: {
     // https://content.nuxtjs.org/api/configuration
-  }
+  },
+  css: [
+    '@/assets/styles/reset.scss',
+    '@/assets/styles/fonts.scss',
+    '@/assets/styles/default.scss'
+  ]
 })

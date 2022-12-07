@@ -1,0 +1,7 @@
+@mixin just-safari {
+  /* Safari 9+ */
+
+  @supports (-webkit-hyphens:none) {
+    @content;
+  }
+}

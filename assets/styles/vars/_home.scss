@@ -1,0 +1,3 @@
+$layer-height: rem(320px);
+$layer-factor: 1.5;
+$layer-width: calc(#{$layer-height} * #{$layer-factor});

@@ -1,0 +1,15 @@
+@use "sass:math";
+
+$browser-context: 16px;
+
+@function rem($pixels) {
+  @return #{math.div($pixels, $browser-context)}rem;
+}
+
+@function columns($columns, $gap-correction: -1) {
+  @return calc(var(--column) * #{$columns} + (var(--gap) * #{$gap-correction}));
+}
+
+@function invert-scale($scale) {
+  @return (2 - $scale);
+}

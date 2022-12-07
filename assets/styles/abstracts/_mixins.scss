@@ -1,0 +1,28 @@
+@import './mixins/default.scss';
+@import './mixins/cross-browser.scss';
+@import './mixins/layer-diagram.scss';
+
+@mixin sidebar-headers-font-styles() {
+  font-family: $font-family--main;
+  font-weight: $font-weight--semibold;
+  letter-spacing: $letter-spacing--sm;
+  line-height: $line-height--md;
+}
+
+@mixin custom-scrollbar() {
+  scrollbar-color: $neutral--25 transparent;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: rem(6px);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: $border-radius--md;
+    background-color: $neutral--25;
+    transition: background-color $transitions-duration--short ease;
+    &:hover {
+      background-color: $neutral--50;
+    }
+  }
+}

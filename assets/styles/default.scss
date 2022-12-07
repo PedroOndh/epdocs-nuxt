@@ -1,0 +1,242 @@
+@import "./abstracts/_animations.scss";
+@import "./abstracts/_functions.scss";
+@import "./abstracts/_mixins.scss";
+@import "./vars/_breakpoints.scss";
+@import "./vars/_colors.scss";
+@import "./vars/_fonts.scss";
+@import "./vars/_transitions.scss";
+@import "./vars/_misc.scss";
+
+@import "./default/root.scss";
+@import "./default/custom-classes.scss";
+@import "./default/code.scss";
+@import "./default/headings.scss";
+
+$list-bullet-size: rem(5px);
+
+body {
+  color: $black;
+  background-color: $white;
+  font-family: $font-family--main;
+  font-size: $font-size--md;
+  font-weight: $font-weight--light;
+  text-rendering: geometricPrecision;
+  overflow-x: hidden;
+}
+
+blockquote,
+pre,
+table {
+  margin: 0 0 rem(40px);
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 rem(20px);
+  font-family: $font-family--secondary;
+  word-break: break-word;
+  line-height: $line-height--md;
+}
+
+blockquote,
+cite {
+  display: inline;
+  margin: rem(50px) var(--column) rem(75px);
+  font-style: italic;
+  font-family: $font-family--secondary;
+  font-size: $font-size--xl-plus;
+  line-height: $line-height--md;
+}
+
+blockquote {
+  --size: #{rem(300px)};
+  display: block;
+  p {
+    position: relative;
+    &:before,
+    &:after {
+      position: absolute;
+      z-index: -1;
+      color: $color-blue--10;
+      font-size: var(--size);
+    }
+    &:before {
+      content: '“';
+      top: calc(0px - var(--size) / 2);
+      left: -30px;
+    }
+    &:after {
+      content: '”';
+      transform: translate(-40px, calc(0px - var(--size) / 2.75));
+    }
+  }
+}
+
+a {
+  color: $black;
+}
+
+b,
+strong {
+  font-weight: $font-weight--bold;
+}
+
+ul,
+ol {
+  li {
+    padding-left: rem(30px);
+
+    p {
+      margin-top: rem(-24px);
+    }
+
+    &:not(:first-child),
+    li:first-child {
+      margin-top: rem(15px);
+    }
+  }
+}
+
+ul {
+  > li::before {
+    content: ' ';
+    display: inline-block;
+    width: $list-bullet-size;
+    height: $list-bullet-size;
+    vertical-align: middle;
+    margin: rem(-2px) rem(25px) 0 rem(-30px);
+    border-radius: $border-radius--round;
+    background-color: $black;
+  }
+}
+
+ol {
+  counter-reset: default-counter;
+  > li {
+    counter-increment: default-counter;
+    &::before {
+      content: counter(default-counter) '.';
+      display: inline-block;
+      width: rem(30px);
+      margin-left: rem(-30px);
+    }
+  }
+}
+
+img, video, iframe {
+  display: flex;
+  margin: 0 auto rem(20px);
+}
+
+p, li {
+  > img,
+  > video,
+  > iframe {
+    margin: 0 auto;
+  }
+}
+
+label {
+  font-size: $font-size--lg;
+  font-weight: $font-weight--bold;
+}
+
+mark {
+  background: none;
+  color: $color-light-blue;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+select,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  border: 0;
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+
+  &:focus-visible {
+    outline: solid 2px $accent-color;
+    outline-offset: 4px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  overflow-x: auto;
+  table-layout: fixed;
+
+  th,
+  td {
+    overflow-wrap: break-word;
+  }
+
+  th {
+    padding: rem(15px) rem(20px);
+    background-color: $neutral--25;
+  }
+
+  td {
+    padding: rem(15px) rem(20px);
+    border-bottom: rem(1px) solid $neutral--90;
+    vertical-align: top;
+    font-family: $font-family--secondary;
+  }
+}
+
+@media screen and (max-width: $breakpoint__tablet--max) {
+
+  body,
+  code {
+    font-size: $font-size--sm;
+  }
+  table {
+    position: relative;
+    left: calc(-1 * #{$tablet-gap});
+    width: calc(100% + #{$tablet-gap} + #{$tablet-gap});
+    padding-left: $tablet-gap;
+    display: block;
+    table-layout: auto;
+  }
+  blockquote,
+  cite {
+    --size: 8rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: $font-size--lg;
+  }
+  blockquote,
+  pre,
+  table {
+    margin: 0 0 rem(20px);
+  }
+}
+
+@media only screen and (max-width: $breakpoint__mobile--max) {
+
+  table {
+    left: calc(-1 * #{$mobile-gap});
+    width: calc(100% + #{$mobile-gap} + #{$mobile-gap});
+    padding-left: $mobile-gap;
+  }
+  code {
+    padding: rem(2px) rem(4px) 0;
+  }
+}

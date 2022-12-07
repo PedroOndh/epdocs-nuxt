@@ -1,0 +1,151 @@
+$diagram-class: '.edoc-layer-diagram';
+
+@mixin layers-common-styles() {
+  #{$diagram-class} {
+    width: 100%;
+    height: 100%;
+    a {
+      transition: filter $transitions-duration--short ease;
+    }
+    #{$diagram-class}__item-background {
+      transition: fill $transitions-duration--short ease;
+    }
+    a:hover,
+    .edoc-redirect--highlight {
+      #{$diagram-class}__item-background {
+        // Class for selecting the items that must get highlighted inside links
+        filter: none;
+        fill: $color-yellow;
+      }
+    }
+    &:hover {
+      a:not(:hover):not(.edoc-redirect--highlight) {
+        @include unselected-item;
+      }
+    }
+    &[data-view='4']:not(:hover) {
+      a:not(.edoc-redirect--highlight) {
+        @include unselected-item;
+      }
+    }
+  }
+}
+
+@mixin unselected-item() {
+  filter: grayscale(100%) brightness(120%);
+  #{$diagram-class}__item-background {
+    // Applying counter-filter to avoid brightness "burning" this items
+    filter: brightness(85%);
+  }
+  @include just-safari {
+    opacity: 0.6;
+    transition: opacity $transitions-duration--short ease;
+  }
+}
+
+@mixin transform-layers-first-view($layer-scale) {
+  $left-margin: 2%;
+  $top-margin: 5%;
+  $intra-layer-margin: 10px;
+  $perspective-distance: rem(3000px);
+  .edoc-view__layer {
+    &::v-deep h1 {
+      opacity: 0;
+    }
+    svg {
+      pointer-events: none;
+    }
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}) {
+        transform: perspective(#{$perspective-distance})
+          translate3d(
+            #{($i - 1) * $left-margin - 53%},
+            #{($i - 1) * $top-margin - 65%},
+            #{$intra-layer-margin * -$i}
+          )
+          rotate3d(1, 0, 0, 30deg)
+          rotate3d(0, 1, 0, -22deg)
+          rotate3d(0, 0, 1, 22deg)
+          scale3d($layer-scale, $layer-scale, $layer-scale);
+        // HACK: avoiding jagged edges on desktop
+        @media screen and (min-width: $breakpoint__small-desktop--min) {
+          filter: blur(1px);
+        }
+      }
+    }
+  }
+}
+
+@mixin transform-layers-second-view($layer-scale) {
+  $margin: 7%;
+  .edoc-view__layer {
+    --scale: #{$layer-scale};
+    svg {
+      pointer-events: none;
+    }
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) {
+        @include transform-layer-second-view($layer-scale, $margin, $i);
+      }
+    }
+    &:nth-child(4) {
+      transform: translate3d(-50%, -12%, 0px)
+        scale3d(#{$layer-scale}, #{$layer-scale}, #{$layer-scale});
+    }
+    @media screen and (min-width: $breakpoint__small-desktop--min) {
+      top: 30%;
+    }
+    @media screen and (max-width: $breakpoint__tablet--max) {
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          @include transform-layer-second-view($layer-scale, $margin, $i);
+        }
+      }
+    }
+  }
+}
+
+@mixin transform-layer-second-view($layer-scale, $margin, $i) {
+  transform: translate3d(calc(-50% + #{$margin + 100%} * #{$layer-scale * ($i - 2)}), -50%, 0px)
+    scale3d(#{$layer-scale}, #{$layer-scale}, #{$layer-scale});
+}
+
+@mixin transform-layers-third-view() {
+  $margin--horizontal: 4.4%;
+  $scale-big: 1;
+  $scale-small: 0.3;
+  $x-origin: -85%;
+  .edoc-view__layer {
+    @for $i from 1 through 3 {
+      &--#{$i} {
+        $next-position: calc(#{$x-origin} + (100% * #{$scale-small} + #{$margin--horizontal}) * #{$i - 1});
+        --scale: #{$scale-small};
+        ::v-deep svg {
+          pointer-events: none;
+        }
+        transform: translate3d(
+            #{$next-position},
+            -100%,
+            0
+          )
+          scale3d($scale-small, $scale-small, $scale-small);
+        @media screen and (max-width: $breakpoint__tablet--max) {
+          visibility: hidden;
+        }
+      }
+    }
+    &--active {
+      &::v-deep h1 {
+        opacity: 0;
+      }
+      --scale: #{$scale-big};
+      transform: translate3d(-50%, -35%, 0)
+        scale3d(#{$scale-big}, #{$scale-big}, #{$scale-big});
+
+      @media screen and (max-width: $breakpoint__tablet--max) {
+        transform: translate3d(-50%, -60%, 0)
+        scale3d(#{$scale-big}, #{$scale-big}, #{$scale-big});
+      }
+    }
+  }
+}

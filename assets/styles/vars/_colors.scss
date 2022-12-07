@@ -1,0 +1,60 @@
+$color-yellow: #fdcb5b;
+$color-red: #d44a6f;
+$color-purple: #8b6391;
+$color-orange: #e67962;
+$color-blue: #0086b2;
+$color-light-blue: #53b9c9;
+$color-green: #80c0a1;
+
+$neutral--0: #fff;
+$neutral--10: #f5f6f7;
+$neutral--25: #e3e6e7;
+$neutral--50: #d0d4d7;
+$neutral--75: #bdc3c6;
+$neutral--90: #919ea3;
+$neutral--95: #66777F;
+$neutral--100: #243d48;
+$neutral--200: #1b2d36;
+
+$background-grey: $neutral--10;
+$background-black: $neutral--200;
+
+$white: $neutral--0;
+$black: $neutral--100;
+$accent-color: $color-blue;
+
+@function clear-color($color, $weight) {
+  @return mix($color, $white, $weight);
+}
+
+$color-yellow--200: #9e6e01;
+$color-red--200: #bf1c48;
+$color-purple--200: #6c3d73;
+$color-orange--200: #da3d1c;
+$color-blue--200: #026383;
+$color-light-blue--200: #008094;
+$color-green--200: #1d8753;
+
+$color-yellow--60: clear-color($color-yellow, 60%);
+$color-red--60: clear-color($color-red, 60%);
+$color-purple--60: clear-color($color-purple, 60%);
+$color-orange--60: clear-color($color-orange, 60%);
+$color-blue--60: clear-color($color-blue, 60%);
+$color-light-blue--60: clear-color($color-light-blue, 60%);
+$color-green--60: clear-color($color-green, 60%);
+
+$color-yellow--30: clear-color($color-yellow, 30%);
+$color-red--30: clear-color($color-red, 30%);
+$color-purple--30: clear-color($color-purple, 30%);
+$color-orange--30: clear-color($color-orange, 30%);
+$color-blue--30: clear-color($color-blue, 30%);
+$color-light-blue--30: clear-color($color-light-blue, 30%);
+$color-green--30: clear-color($color-green, 30%);
+
+$color-yellow--10: clear-color($color-yellow, 10%);
+$color-red--10: clear-color($color-red, 10%);
+$color-purple--10: clear-color($color-purple, 10%);
+$color-orange--10: clear-color($color-orange, 10%);
+$color-blue--10: clear-color($color-blue, 10%);
+$color-light-blue--10: clear-color($color-light-blue, 10%);
+$color-green--10: clear-color($color-green, 10%);

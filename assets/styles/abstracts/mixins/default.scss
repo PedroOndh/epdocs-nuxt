@@ -1,0 +1,55 @@
+$code-languages: (
+  javascript: 'js',
+  typescript: 'ts',
+  python: 'py',
+  go: 'go',
+  java: 'java',
+  php: 'php',
+  git: 'git',
+  sql: 'sql',
+  mongodb: 'mongodb',
+  markdown: 'md',
+  json: 'json',
+  yaml: 'yml',
+  html: 'html',
+  css: 'css',
+  scss: 'scss',
+  vue: 'vue'
+);
+
+@mixin generate-code-tags() {
+  @each $language-name, $language-value in $code-languages {
+    &.language-#{$language-name}::after {
+      content: '#{$language-value}';
+    }
+  }
+}
+
+@mixin titles-margin($coeficient-reduction: 1) {
+
+  h1, h1 + .edoc-header-anchor {
+    margin: calc(#{$margin-top--h1} * #{$coeficient-reduction}) 0
+    calc(#{$margin-bottom--h1} * #{$coeficient-reduction});
+  }
+
+  h2, h2 + .edoc-header-anchor {
+    margin: calc(#{$margin-top--h2} * #{$coeficient-reduction}) 0
+    calc(#{$margin-bottom--h2} * #{$coeficient-reduction});
+  }
+
+  h3, h3 + .edoc-header-anchor {
+    margin: calc(#{$margin-top--h3} * #{$coeficient-reduction}) 0
+    calc(#{$margin-bottom--h3} * #{$coeficient-reduction});
+  }
+
+  h4, h4 + .edoc-header-anchor {
+    margin: calc(#{$margin-top--h4} * #{$coeficient-reduction}) 0
+    calc(#{$margin-bottom--h4} * #{$coeficient-reduction});
+  }
+
+  h5, h5 + .edoc-header-anchor,
+  h6, h6 + .edoc-header-anchor {
+    margin: calc(#{$margin-top--h5} * #{$coeficient-reduction}) 0
+    calc(#{$margin-bottom--h5} * #{$coeficient-reduction});
+  }
+}

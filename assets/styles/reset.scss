@@ -1,0 +1,50 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+label, input, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  // Remove default style for buttons on mobile Safari
+  -webkit-appearance: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+  padding: inherit;
+  margin: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
