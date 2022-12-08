@@ -152,11 +152,11 @@
   }
   &.note {
     --color: #{$color-light-blue};
-    --mask: url('../assets/icons/note.svg');
+    --mask: url('../icons/note.svg');
   }
   &.warning {
     --color: #{$color-yellow};
-    --mask: url('../assets/icons/alert.svg');
+    --mask: url('../icons/alert.svg');
   }
   &.danger {
     --color: #{$color-red};
@@ -172,13 +172,13 @@
   }
   &.interact {
     --color: #{$color-green};
-    --mask: url('../assets/icons/interactive.svg');
+    --mask: url('../icons/interactive.svg');
   }
   &.design {
-    --mask: url('../assets/icons/design.svg');
+    --mask: url('../icons/design.svg');
   }
   &.develop {
-    --mask: url('../assets/icons/develop.svg');
+    --mask: url('../icons/develop.svg');
   }
   &.details {
     &::before {

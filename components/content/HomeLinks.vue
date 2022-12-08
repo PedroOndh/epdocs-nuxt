@@ -101,20 +101,20 @@
       &--green {
         top: 35%;
         left: 20%;
-        content: url('/assets/icons/circleDarkGreen.svg');
+        content: url('../../assets/icons/circleDarkGreen.svg');
         @include size(200px);
       }
       &--yellow {
         top: 40%;
         left: 48%;
-        content: url('/assets/icons/circleYellow.svg');
+        content: url('../../assets/icons/circleYellow.svg');
         @include size(350px);
         opacity: 0.5;
       }
       &--blue {
         top: 35%;
         right: -40%;
-        content: url('/assets/icons/circleBlue.svg');
+        content: url('../../assets/icons/circleBlue.svg');
         @include size(750px);
       }
     }
