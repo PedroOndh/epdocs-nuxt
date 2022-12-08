@@ -13,7 +13,7 @@
     () => $fetch(`${BASE_URL}?maxResults=200&expand=renderedFields&fields=${FIELDS.toString()}&jql=labels=${LABEL}`, {
       headers: {
         Accept: 'application/json',
-        Authorization: `Basic ${Buffer.from(JIRA_TOKEN as string).toString('base64')}`
+        Authorization: `Basic ${JIRA_TOKEN}`
       }
     })
   );
