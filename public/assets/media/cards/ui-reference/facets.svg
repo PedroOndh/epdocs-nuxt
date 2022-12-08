@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="90px" viewBox="0 0 148 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8@2x</title>
+    <g id="Diagrams&amp;Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Reference-Cards" transform="translate(-255.000000, -617.000000)">
+            <g id="Group-8" transform="translate(255.000000, 617.000000)">
+                <g id="Group-7">
+                    <path d="M55.5964912,0 L145.403509,0 C146.837511,-2.63421987e-16 148,1.16248872 148,2.59649123 L148,87 C148,88.6568542 146.656854,90 145,90 L56,90 C54.3431458,90 53,88.6568542 53,87 L53,2.59649123 C53,1.16248872 54.1624887,2.48386804e-15 55.5964912,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <path d="M44.4035088,0.355 C45.0224795,0.355 45.5828523,0.605887451 45.9884824,1.01151758 C46.3941125,1.41714771 46.645,1.97752052 46.645,2.59649123 L46.645,2.59649123 L46.645,87 C46.645,87.7303966 46.3489483,88.3916466 45.8702974,88.8702974 C45.3916466,89.3489483 44.7303966,89.645 44,89.645 L44,89.645 L3,89.645 C2.26960342,89.645 1.60835342,89.3489483 1.12970256,88.8702974 C0.651051709,88.3916466 0.355,87.7303966 0.355,87 L0.355,87 L0.355,2.59649123 C0.355,1.97752052 0.605887451,1.41714771 1.01151758,1.01151758 C1.41714771,0.605887451 1.97752052,0.355 2.59649123,0.355 L2.59649123,0.355 Z" id="Rectangle" stroke="#919DA3" stroke-width="0.71" fill="#FFFFFF"></path>
+                    <rect id="Rectangle" fill="#E2E6E7" x="59" y="5" width="38" height="36.6785714" rx="2.96952575"></rect>
+                    <rect id="Rectangle" fill="#E2E6E7" x="103" y="5" width="38" height="36.6785714" rx="2.96952575"></rect>
+                    <rect id="Rectangle" fill="#E2E6E7" x="59" y="47.3214286" width="38" height="36.6785714" rx="2.96952575"></rect>
+                    <rect id="Rectangle" fill="#E2E6E7" x="103" y="47.3214286" width="38" height="36.6785714" rx="2.96952575"></rect>
+                </g>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="16" width="24" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="7" y="6" width="35" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="15" width="6" height="6" rx="0.865497076"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="24" width="6" height="6" rx="0.865497076"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="32" width="6" height="6" rx="0.865497076"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="24" width="21" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="33" width="27" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="60" width="26" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="69" width="19" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="15" y="77" width="22" height="5" rx="2.5"></rect>
+                <rect id="Rectangle" fill="#919DA3" x="6" y="48" width="34" height="2" rx="1"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="1.73099415" fill="#FFFFFF" x="27.8654971" y="46.8654971" width="4.26900585" height="4.26900585" rx="2.13450292"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="60" width="6" height="6" rx="0.865497076"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="68" width="6" height="6" rx="0.865497076"></rect>
+                <rect id="Rectangle" stroke="#919DA3" stroke-width="0.865497076" x="6" y="77" width="6" height="6" rx="0.865497076"></rect>
+                <polyline id="Path-44" stroke="#919DA3" stroke-width="0.865497076" points="12 24 8.57773345 28 7 26.2222222"></polyline>
+                <polyline id="Path-44" stroke="#919DA3" stroke-width="0.865497076" points="12 68 8.57773345 72 7 70.2222222"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

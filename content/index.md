@@ -5,20 +5,7 @@ sidebar: true
 wider: true
 ---
 
-<HomeLinks :links="[
-  {
-    title: 'Explore Empathy Platform',
-    path: '/explore-empathy-platform/',
-    image: '/assets/media/home-explore.svg',
-    button: 'Explore'
-  },
-  {
-    title: 'Develop Empathy Platform',
-    path: '/develop-empathy-platform/',
-    image: '/assets/media/home-develop.svg',
-    button: 'Develop'
-  }
-]">
+<HomeLinks>
 
 ## What are you interested in?
 
@@ -54,3 +41,4 @@ Empathy is about understanding, building an open dialogue between us on what rea
 We'd love your honest **feedback about Empathy Platform Docs**, so we can continue to improve the portal and its contents.
 
 </FeedbackBanner>
+

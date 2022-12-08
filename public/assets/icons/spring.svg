@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="138px" viewBox="0 0 414 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>illustration-spring</title>
+    <defs>
+        <linearGradient x1="43.4708544%" y1="-18.3493385%" x2="59.4173898%" y2="29.8495568%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-53.5347262%" x2="77.9447177%" y2="31.9980598%" id="linearGradient-2">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="139.585297%" y1="-69.794977%" x2="50%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#DFDFDF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="69.5906055%" cy="50%" fx="69.5906055%" fy="50%" r="89.6646944%" gradientTransform="translate(0.695906,0.500000),scale(0.257246,1.000000),rotate(92.517707),scale(1.000000,2.914038),translate(-0.695906,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#91D1A6" offset="0%"></stop>
+            <stop stop-color="#F2F9F6" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="55.549781%" cy="26.3457509%" fx="55.549781%" fy="26.3457509%" r="73.1453857%" gradientTransform="translate(0.555498,0.263458),scale(0.257246,1.000000),rotate(86.392819),scale(1.000000,2.650126),translate(-0.555498,-0.263458)" id="radialGradient-5">
+            <stop stop-color="#89D6A2" offset="0%"></stop>
+            <stop stop-color="#A7E0BA" stop-opacity="0.714039266" offset="53.3848209%"></stop>
+            <stop stop-color="#F2F9F6" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M0,58 C98.2677639,43.5 116.114173,82.5753515 214.582677,82.5753515 C280.228346,82.5753515 346.700787,65.5502343 414,31.5 L414,130 C414,134.418278 410.418278,138 406,138 L8,138 C3.581722,138 -1.0117058e-14,134.418278 0,130 C0,106 0,82 0,58 Z" id="path-6"></path>
+        <filter x="-167.8%" y="-167.8%" width="435.6%" height="435.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="-14" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.501960784   0 0 0 0 0.752941176   0 0 0 0 0.631372549  0 0 0 0.196241259 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-51.4%" y="-100.9%" width="202.7%" height="301.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.501960784   0 0 0 0 0.752941176   0 0 0 0 0.631372549  0 0 0 0.341154939 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="illustration-spring" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="illustration-spring-copy">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="351" cy="40" r="31"></circle>
+            <circle id="Oval-Copy" fill="url(#linearGradient-2)" cx="387.5" cy="48.5" r="22.5"></circle>
+            <circle id="Oval-Copy-2" fill="url(#linearGradient-3)" cx="317.5" cy="55.5" r="25.5"></circle>
+            <path d="M387.5,53.5 L387.5,70.5 L313.5,70.5 L313.5,53.5 L387.5,53.5 Z" id="Path-3" stroke="#FFFFFF" fill="#FFFFFF"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="78" cy="51" r="28"></circle>
+            <path d="M110.5,63.5 L110.5,78.5 L44.5,78.5 L44.5,63.5 L110.5,63.5 Z" id="Path-3" stroke="#FFFFFF" fill="#FFFFFF"></path>
+            <circle id="Oval-Copy-2" fill="url(#linearGradient-3)" cx="42.5" cy="60.5" r="18.5"></circle>
+            <circle id="Oval-Copy" fill="url(#linearGradient-2)" cx="113.5" cy="58.5" r="20.5"></circle>
+            <g id="mountains">
+                <use fill="#D9ECE3" xlink:href="#path-6"></use>
+                <use fill="url(#radialGradient-4)" xlink:href="#path-6"></use>
+                <use fill="url(#radialGradient-5)" xlink:href="#path-6"></use>
+            </g>
+            <circle id="sun" fill="#FDCB5B" cx="241" cy="28" r="28"></circle>
+            <line x1="160.5" y1="65.5" x2="160.5" y2="89.5" id="Line" stroke="#C0B180" stroke-width="2" stroke-linecap="square"></line>
+            <ellipse id="Oval" fill="#80C0A1" cx="160.5" cy="52" rx="15.5" ry="21"></ellipse>
+            <line x1="217.5" y1="86.5" x2="217.5" y2="110.5" id="Line-Copy-2" stroke="#C0B180" stroke-width="2" stroke-linecap="square"></line>
+            <ellipse id="Oval-Copy-4" fill="#80C0A1" cx="217.333333" cy="86" rx="10.3333333" ry="14"></ellipse>
+            <line x1="193.5" y1="72.5" x2="193.5" y2="82.5" id="Line-2" stroke="#C0B180" stroke-linecap="square"></line>
+            <ellipse id="Oval-Copy-3" fill="#80C0A1" cx="193.285714" cy="67" rx="6.64285714" ry="9"></ellipse>
+            <line x1="314.5" y1="68.5" x2="314.5" y2="92.5" id="Line-Copy-3" stroke="#C0B180" stroke-width="2" stroke-linecap="square"></line>
+            <ellipse id="Oval-Copy-5" fill="#80C0A1" cx="314.333333" cy="68" rx="10.3333333" ry="14"></ellipse>
+            <ellipse id="Oval" fill="#D44A6F" cx="125.5" cy="85" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-18" fill="#D44A6F" cx="289.5" cy="114" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-10" fill="#FDCB5B" cx="144.5" cy="100" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-17" fill="#FDCB5B" cx="278.5" cy="97" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-11" fill="#80C0A1" cx="166.5" cy="111" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-15" fill="#80C0A1" cx="254.5" cy="91" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-12" fill="#FFFFFF" cx="125.5" cy="111" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-16" fill="#FFFFFF" cx="261.5" cy="108" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-19" fill="#53B9C9" cx="326.5" cy="88" rx="4.5" ry="3"></ellipse>
+            <ellipse id="Oval-Copy-13" fill="#E67962" cx="177.5" cy="100" rx="4.5" ry="3"></ellipse>
+            <g id="cloud-2" filter="url(#filter-7)" transform="translate(365.000000, 26.000000)"></g>
+            <g id="cloud-1" filter="url(#filter-8)" transform="translate(24.000000, 23.000000)"></g>
+            <g id="trees" transform="translate(145.000000, 31.000000)">
+                <g id="Group-13"></g>
+                <g id="Group-15" transform="translate(62.000000, 41.000000)"></g>
+                <g id="Group-14" transform="translate(41.642857, 27.000000)"></g>
+                <line x1="224.5" y1="50.5" x2="224.5" y2="74.5" id="Line-Copy-5" stroke="#C0B180" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="197.5" y1="12.5" x2="197.5" y2="36.5" id="Line-Copy-4" stroke="#C0B180" stroke-linecap="square"></line>
+                <ellipse id="Oval-Copy-7" fill="#80C0A1" cx="224.547619" cy="48" rx="12.547619" ry="17"></ellipse>
+                <ellipse id="Oval-Copy-6" fill="#80C0A1" cx="197.75" cy="19.5" rx="7.75" ry="10.5"></ellipse>
+            </g>
+            <g id="flowers" transform="translate(190.000000, 102.000000)">
+                <ellipse id="Oval-Copy-14" fill="#53B9C9" cx="4.5" cy="18" rx="4.5" ry="3"></ellipse>
+                <ellipse id="Oval-Copy-20" fill="#E67962" cx="153.5" cy="3" rx="4.5" ry="3"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

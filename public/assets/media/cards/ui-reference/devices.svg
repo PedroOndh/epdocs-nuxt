@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="73px" viewBox="0 0 158 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 156</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="95.0207469" height="56.3353293" rx="0.62583657"></rect>
+        <filter x="-4.2%" y="-7.1%" width="116.8%" height="128.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.849920743   0 0 0 0 0.849920743   0 0 0 0 0.849920743  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="8.88888889" y="9.63529412" width="82.2222222" height="5.92941176" rx="2.95652174"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="82.2222222" height="5.92941176" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="8.88888889" y="19.2705882" width="22.962963" height="4.44705882" rx="2.22352941"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.962963" height="4.44705882" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="8.88888889" y="27.4235294" width="22.962963" height="33.3529412" rx="2.95652174"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.962963" height="33.3529412" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="36.2962963" y="27.4235294" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="36.2962963" y="45.9529412" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="55.5555556" y="27.4235294" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="55.5555556" y="45.9529412" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="74.8148148" y="27.4235294" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="74.8148148" y="45.9529412" width="16.0493827" height="14.8235294" rx="2.95652174"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0493827" height="14.8235294" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="34.8148148" y="19.2705882" width="15.5555556" height="4.44705882" rx="2.22352941"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15.5555556" height="4.44705882" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="6.66666667" y="9.60869565" width="26.6666667" height="5.17391304" rx="2.58695652"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.6666667" height="5.17391304" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="6.66666667" y="17.7391304" width="10.3703704" height="2.95652174" rx="1.47826087"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.3703704" height="2.95652174" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-27" x="6.66666667" y="41.3913043" width="12.0430108" height="11.826087" rx="1.47826087"></rect>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.0430108" height="11.826087" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <rect id="path-29" x="6.66666667" y="55.4347826" width="12.0430108" height="11.826087" rx="1.47826087"></rect>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.0430108" height="11.826087" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <rect id="path-31" x="19.2592593" y="17.7391304" width="10.3703704" height="2.95652174" rx="1.47826087"></rect>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.3703704" height="2.95652174" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-33" x="21.2903226" y="41.3913043" width="12.0430108" height="11.826087" rx="1.47826087"></rect>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.0430108" height="11.826087" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <rect id="path-35" x="21.2903226" y="55.4347826" width="12.0430108" height="11.826087" rx="1.47826087"></rect>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.0430108" height="11.826087" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <rect id="path-37" x="31.8518519" y="17.7391304" width="5.92592593" height="2.95652174" rx="1.47826087"></rect>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.92592593" height="2.95652174" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <path d="M11.8518519,36.2173913 C14.7155506,36.2173913 17.037037,33.9009515 17.037037,31.0434783 C17.037037,28.186005 14.7155506,25.8695652 11.8518519,25.8695652 C8.98815315,25.8695652 6.66666667,28.186005 6.66666667,31.0434783 C6.66666667,33.9009515 8.98815315,36.2173913 11.8518519,36.2173913 Z" id="path-39"></path>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.3703704" height="10.3478261" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <path d="M24.4444444,36.2173913 C27.3081431,36.2173913 29.6296296,33.9009515 29.6296296,31.0434783 C29.6296296,28.186005 27.3081431,25.8695652 24.4444444,25.8695652 C21.5807457,25.8695652 19.2592593,28.186005 19.2592593,31.0434783 C19.2592593,33.9009515 21.5807457,36.2173913 24.4444444,36.2173913 Z" id="path-41"></path>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.3703704" height="10.3478261" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <path d="M37.0257649,25.8695652 L38.3505155,25.8695652 L38.3505155,25.8695652 L38.3505155,36.2173913 L37.0257649,36.2173913 C34.1682916,36.2173913 31.8518519,33.9009515 31.8518519,31.0434783 C31.8518519,28.186005 34.1682916,25.8695652 37.0257649,25.8695652 Z" id="path-43"></path>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6.49866361" height="10.3478261" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+    </defs>
+    <g id="Diagrams&amp;Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Reference-Cards" transform="translate(-507.000000, -216.000000)">
+            <g id="Group-156" transform="translate(507.000000, 216.000000)">
+                <g id="Group-84" transform="translate(52.000000, 5.000000)">
+                    <g id="Group-39">
+                        <g id="Rectangle-Copy-41" transform="translate(2.904564, 3.313843)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M95.0260509,0.828460726 C97.7730871,0.828460726 100,3.0553736 100,5.80240985 L100,57.1606053 C100,59.9076415 97.7730871,62.1345544 95.0260509,62.1345544 L4.97394913,62.1345544 C2.22691288,62.1345544 -1.43994192e-15,59.9076415 0,57.1606053 L0,5.80240985 C-3.36414915e-16,3.0553736 2.22691288,0.828460726 4.97394913,0.828460726 L95.0260509,0.828460726 Z M92.9491521,4.97076435 L7.05084792,4.97076435 C5.4484101,4.97076435 4.14937759,6.26979687 4.14937759,7.87223468 L4.14937759,7.87223468 L4.14937759,55.0907805 C4.14937759,56.6932183 5.4484101,57.9922508 7.05084792,57.9922508 L7.05084792,57.9922508 L92.9491521,57.9922508 C94.5515899,57.9922508 95.8506224,56.6932183 95.8506224,55.0907805 L95.8506224,55.0907805 L95.8506224,7.87223468 C95.8506224,6.26979687 94.5515899,4.97076435 92.9491521,4.97076435 L92.9491521,4.97076435 Z" id="Combined-Shape" fill="#919DA3"></path>
+                        <ellipse id="Oval" fill="#FFFFFF" cx="2.0746888" cy="31.4815076" rx="1" ry="1"></ellipse>
+                        <rect id="Rectangle" fill="#919DA3" x="19.0871369" y="60.5146178" width="7.46887967" height="2.48538218" rx="1.24269109"></rect>
+                        <rect id="Rectangle-Copy-45" fill="#919DA3" x="12.033195" y="60.477633" width="4.56431535" height="2.48538218" rx="0.828991521"></rect>
+                        <rect id="Rectangle-Copy-44" fill="#919DA3" x="19.0871369" y="0" width="7.46887967" height="2.48538218" rx="1.24269109"></rect>
+                        <rect id="Rectangle-Copy-42" fill="#919DA3" x="27.3858921" y="60.5146178" width="7.46887967" height="2.48538218" rx="1.24269109"></rect>
+                    </g>
+                    <use id="Rectangle-Copy" stroke="#919DA3" mask="url(#mask-4)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-3"></use>
+                    <use id="Rectangle-Copy-19" stroke="#919DA3" mask="url(#mask-6)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-5"></use>
+                    <use id="Rectangle-Copy-20" stroke="#919DA3" mask="url(#mask-8)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-7"></use>
+                    <use id="Rectangle-Copy-21" stroke="#919DA3" mask="url(#mask-10)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-9"></use>
+                    <use id="Rectangle-Copy-43" stroke="#919DA3" mask="url(#mask-12)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-11"></use>
+                    <use id="Rectangle-Copy-46" stroke="#919DA3" mask="url(#mask-14)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-13"></use>
+                    <use id="Rectangle-Copy-56" stroke="#919DA3" mask="url(#mask-16)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-15"></use>
+                    <use id="Rectangle-Copy-47" stroke="#919DA3" mask="url(#mask-18)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-17"></use>
+                    <use id="Rectangle-Copy-59" stroke="#919DA3" mask="url(#mask-20)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-19"></use>
+                    <use id="Rectangle-Copy-22" stroke="#919DA3" mask="url(#mask-22)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-21"></use>
+                </g>
+                <g id="Group-81">
+                    <g id="Group-40">
+                        <g id="Group-38">
+                            <rect id="Rectangle-Copy-41" fill-opacity="0.7" fill="#FFFFFF" x="2.65095729" y="1.83783784" width="34.6980854" height="64.3243243" rx="1.07316995"></rect>
+                            <g id="Group-35-Copy" transform="translate(0.824742, 0.000000)">
+                                <rect id="Rectangle-Copy-41" fill="#FFFFFF" x="1.82621502" y="1.83783784" width="34.6980854" height="64.3243243" rx="1.07316995"></rect>
+                                <path d="M32.8268353,0 C35.8774796,-5.97942712e-15 38.3505155,2.47303583 38.3505155,5.52368012 L38.3505155,62.4763199 C38.3505155,65.5269642 35.8774796,68 32.8268353,68 L5.52368012,68 C2.47303583,68 -5.14582243e-16,65.5269642 0,62.4763199 L0,5.52368012 C-3.73596177e-16,2.47303583 2.47303583,1.44857269e-15 5.52368012,0 L32.8268353,0 Z M32.9974244,2.75675676 L25.7326751,2.75675676 L25.7326751,2.75675676 L24.7431439,4.39952352 C24.3267366,5.09082055 23.5786711,5.51351351 22.7716478,5.51351351 L16.1372692,5.51351351 C15.3574486,5.51351351 14.6306706,5.11863603 14.2063241,4.46438061 L13.0987685,2.75675676 L5.35309111,2.75675676 C3.88426237,2.75675676 2.68324113,3.90337694 2.59629145,5.35035322 L2.59125104,5.51859682 L2.59125104,62.4814032 C2.59125104,63.9502319 3.73787122,65.1512532 5.18484751,65.2382028 L5.35309111,65.2432432 L32.9974244,65.2432432 C34.4662531,65.2432432 35.6672743,64.0966231 35.754224,62.6496468 L35.7592644,62.4814032 L35.7592644,5.51859682 C35.7592644,3.99327467 34.5227465,2.75675676 32.9974244,2.75675676 Z" id="Combined-Shape" fill="#919DA3"></path>
+                            </g>
+                            <rect id="Rectangle" fill="#919DA3" x="0" y="10.3658537" width="1.64948454" height="3.73170732" rx="0.824742268"></rect>
+                            <rect id="Rectangle-Copy-46" fill="#919DA3" x="0" y="18.2439024" width="1.64948454" height="6.2195122" rx="0.824742268"></rect>
+                            <rect id="Rectangle-Copy-48" fill="#919DA3" x="38.3505155" y="18.2439024" width="1.64948454" height="6.2195122" rx="0.824742268"></rect>
+                            <rect id="Rectangle-Copy-47" fill="#919DA3" x="0" y="25.2926829" width="1.64948454" height="6.2195122" rx="0.824742268"></rect>
+                        </g>
+                        <rect id="Rectangle" fill="#FFFFFF" x="17.037037" y="2.2173913" width="6.66666667" height="1" rx="0.5"></rect>
+                    </g>
+                    <use id="Rectangle-Copy-98" stroke="#919DA3" mask="url(#mask-24)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-23"></use>
+                    <use id="Rectangle-Copy-99" stroke="#919DA3" mask="url(#mask-26)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-25"></use>
+                    <use id="Rectangle-Copy-100" stroke="#919DA3" mask="url(#mask-28)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-27"></use>
+                    <use id="Rectangle-Copy-101" stroke="#919DA3" mask="url(#mask-30)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-29"></use>
+                    <use id="Rectangle-Copy-102" stroke="#919DA3" mask="url(#mask-32)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-31"></use>
+                    <use id="Rectangle-Copy-103" stroke="#919DA3" mask="url(#mask-34)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-33"></use>
+                    <use id="Rectangle-Copy-104" stroke="#919DA3" mask="url(#mask-36)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-35"></use>
+                    <use id="Rectangle-Copy-105" stroke="#919DA3" mask="url(#mask-38)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-37"></use>
+                    <use id="Oval-Copy" stroke="#919DA3" mask="url(#mask-40)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-39"></use>
+                    <use id="Oval-Copy-6" stroke="#919DA3" mask="url(#mask-42)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-41"></use>
+                    <use id="Rectangle-Copy" stroke="#919DA3" mask="url(#mask-44)" stroke-dasharray="1.478260869565217,1.478260869565217" xlink:href="#path-43"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

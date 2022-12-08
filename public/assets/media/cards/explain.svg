@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="80px" viewBox="0 0 139 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <g id="Diagrams&amp;Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card/Explain" transform="translate(-26.000000, -19.000000)">
+            <g id="Group-18" transform="translate(0.000000, 0.375884)">
+                <g id="Group-19" transform="translate(26.000000, 18.624116)">
+                    <g id="Group-17">
+                        <g id="Group-16" transform="translate(0.000000, 28.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                            <path d="M11.5,7.41421356 L15.5857864,11.5 L11.5,15.5857864 L7.41421356,11.5 L11.5,7.41421356 Z" id="Polygon" stroke="#1E3D49" stroke-width="2" fill="#1E3D49"></path>
+                        </g>
+                        <g id="Group-16-Copy-4" transform="translate(0.000000, 56.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                            <polygon id="Triangle" fill="#BBC3C6" points="11 6 16 16 6 16"></polygon>
+                        </g>
+                        <g id="Group-16-Copy-2" transform="translate(27.000000, 28.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                            <polygon id="Polygon" fill="#BBC3C6" transform="translate(11.500000, 11.500000) rotate(-315.000000) translate(-11.500000, -11.500000) " points="11.5 6 17 11.5 11.5 17 6 11.5"></polygon>
+                        </g>
+                        <g id="Group-16-Copy-5" transform="translate(27.000000, 56.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                        </g>
+                        <g id="Group-16-Copy-3" transform="translate(54.000000, 28.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                            <circle id="Oval" fill="#BBC3C6" cx="11.5" cy="12" r="5"></circle>
+                        </g>
+                        <g id="Group-16-Copy-6" transform="translate(54.000000, 56.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle" x="0" y="0" width="23" height="24" rx="3.4310061"></rect>
+                        </g>
+                        <g id="Group-16-Copy" transform="translate(85.000000, 0.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="54" height="80" rx="3.4310061"></rect>
+                            <path d="M27,11.4696133 L40.4925019,26 L27,40.5303867 L13.5074981,26 L27,11.4696133 Z" id="Polygon" stroke="#1E3D49" stroke-width="2" fill="#1E3D49"></path>
+                        </g>
+                        <rect id="Rectangle-2" fill="#243C47" x="0" y="3" width="10" height="17" rx="1"></rect>
+                        <rect id="Rectangle-Copy-51" fill="#BBC3C6" x="13.3571429" y="7" width="10.2142857" height="13" rx="1"></rect>
+                        <rect id="Rectangle-Copy-52" fill="#BBC3C6" x="26.7142857" y="9" width="10.2142857" height="11" rx="1"></rect>
+                        <rect id="Rectangle-Copy-53" fill="#BBC3C6" x="40.0714286" y="10" width="10.2142857" height="10" rx="1"></rect>
+                        <rect id="Rectangle-Copy-54" fill="#BBC3C6" x="53.4285714" y="11" width="10.2142857" height="9" rx="1"></rect>
+                        <rect id="Rectangle-Copy-55" fill="#BBC3C6" x="66.7857143" y="13" width="10.2142857" height="7" rx="1"></rect>
+                        <polygon id="Polygon" fill="#BBC3C6" points="38.5 62 43.7308108 65.8004065 41.7328189 71.9495935 35.2671811 71.9495935 33.2691892 65.8004065"></polygon>
+                        <rect id="Rectangle" fill="#BBC3C6" x="60" y="65" width="11" height="5"></rect>
+                        <rect id="Rectangle-Copy-51" fill="#BBC3C6" x="107" y="54" width="23" height="3" rx="1"></rect>
+                        <rect id="Rectangle-Copy-58" fill="#BBC3C6" x="107" y="61" width="23" height="3" rx="1"></rect>
+                        <rect id="Rectangle-Copy-59" fill="#BBC3C6" x="107" y="68" width="23" height="3" rx="1"></rect>
+                    </g>
+                    <rect id="Rectangle-2" fill="#243C47" x="94" y="54" width="10" height="17" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+<svg width="519" height="520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="m180.871 111.426 33.472 16.946" id="a"/>
+        <path d="m174.478 76.776 33.472 16.946" id="b"/>
+        <path d="m193.618.583 41.08 20.087" id="c"/>
+        <path d="m426.333 2.374 41.08 20.087" id="d"/>
+        <path d="M349.92 406.25 391 426.336" id="e"/>
+        <path d="m234.698 381.15 41.08 20.087" id="f"/>
+        <path d="m200.538 339.246 41.08 20.087" id="g"/>
+        <path d="m296.506 359.077 41.08 20.087" id="h"/>
+        <path d="m358.265 10.503 41.08 20.087" id="i"/>
+        <path d="m180.06 69.874 38.822 17.827" id="j"/>
+        <path d="m121.398 77.886 33.472 16.946" id="k"/>
+        <path d="m96.053 83.93 33.471 16.946" id="l"/>
+        <path d="m63.667 83.93 33.471 16.946" id="m"/>
+        <path d="m32.787 81.67 33.472 16.947" id="n"/>
+        <path d="m153.643 76.204 33.472 16.946" id="o"/>
+        <path d="m165.44 94.098 33.472 16.947" id="p"/>
+        <path d="m144.31 93.718 33.472 16.946" id="q"/>
+        <path d="m165.055 182.224 33.471 16.946" id="r"/>
+        <path d="m122.124 108.413 29.35 15.44" id="s"/>
+        <path d="m96.517 175.105 33.471 16.947" id="t"/>
+        <path d="m59.611 104.648 26.714 15.251" id="u"/>
+        <path d="m29.369 166.172 33.471 16.946" id="v"/>
+        <path d="M.4 50.038 22.307 60.21" id="w"/>
+        <path d="m120.907 46.272 21.905 10.173" id="x"/>
+        <path d="m79.483 53.05 21.905 10.173" id="y"/>
+        <path d="M39.565 51.544 61.47 61.717" id="z"/>
+        <path d="m118.648 54.557 21.904 10.173" id="A"/>
+        <mask id="B" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <mask id="C" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <mask id="D" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <mask id="E" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#d"/>
+        </mask>
+        <mask id="F" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#e"/>
+        </mask>
+        <mask id="G" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#f"/>
+        </mask>
+        <mask id="H" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#g"/>
+        </mask>
+        <mask id="I" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#h"/>
+        </mask>
+        <mask id="J" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.08" height="20.086" fill="#fff">
+            <use xlink:href="#i"/>
+        </mask>
+        <mask id="K" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38.821" height="17.827" fill="#fff">
+            <use xlink:href="#j"/>
+        </mask>
+        <mask id="L" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#k"/>
+        </mask>
+        <mask id="M" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#l"/>
+        </mask>
+        <mask id="N" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#m"/>
+        </mask>
+        <mask id="O" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#n"/>
+        </mask>
+        <mask id="P" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#o"/>
+        </mask>
+        <mask id="Q" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#p"/>
+        </mask>
+        <mask id="R" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#q"/>
+        </mask>
+        <mask id="S" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#r"/>
+        </mask>
+        <mask id="T" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30.127" height="15.816" fill="#fff">
+            <use xlink:href="#s"/>
+        </mask>
+        <mask id="U" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#t"/>
+        </mask>
+        <mask id="V" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27.114" height="15.816" fill="#fff">
+            <use xlink:href="#u"/>
+        </mask>
+        <mask id="W" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33.892" height="17.323" fill="#fff">
+            <use xlink:href="#v"/>
+        </mask>
+        <mask id="X" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.595" height="11.297" fill="#fff">
+            <use xlink:href="#w"/>
+        </mask>
+        <mask id="Y" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.595" height="11.297" fill="#fff">
+            <use xlink:href="#x"/>
+        </mask>
+        <mask id="Z" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.595" height="11.297" fill="#fff">
+            <use xlink:href="#y"/>
+        </mask>
+        <mask id="aa" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.595" height="11.297" fill="#fff">
+            <use xlink:href="#z"/>
+        </mask>
+        <mask id="ab" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.595" height="11.297" fill="#fff">
+            <use xlink:href="#A"/>
+        </mask>
+    </defs>
+    <g transform="translate(.943 .972)" fill="none" fill-rule="evenodd">
+        <circle stroke="#D3D3D3" fill="#80C0A1" cx="259.028" cy="259.028" r="258.528"/>
+        <g transform="translate(10.744 59.028)">
+            <path d="M81.242 15.107h153.6c2.74 0 4.346 2.89 3.587 6.454l-73.486 344.803c-.76 3.565-3.597 5.997-6.337 5.433l-153.6-31.614c-2.74-.564-4.346-3.639-3.587-6.868L74.905 20.954c.76-3.23 3.596-5.847 6.337-5.847z" fill="#E3E3E3"/>
+            <path d="m50.274 186.567 58.758 6.342c1.93.209 3.06 2.31 2.525 4.694l-15.596 69.503c-.535 2.385-2.533 4.075-4.463 3.775l-58.757-9.124c-1.93-.3-3.06-2.398-2.526-4.687l15.596-66.735c.535-2.29 2.533-3.976 4.463-3.768zM128.136 194.972l58.758 6.342c1.93.208 3.06 2.401 2.525 4.898l-15.596 72.781c-.535 2.497-2.533 4.278-4.463 3.978l-58.757-9.124c-1.93-.3-3.06-2.49-2.526-4.89l15.596-70.014c.535-2.402 2.533-4.18 4.463-3.971zM29.026 277.604l58.757 9.71c1.93.32 3.06 2.51 2.526 4.895a5.536 5.536 0 0 1-.006.023l-14.315 62.515-65.745-13.53 14.325-60.068c.544-2.278 2.535-3.863 4.458-3.545zM106.888 290.471l58.757 9.71c1.93.32 3.06 2.602 2.526 5.098a6.042 6.042 0 0 1-.006.025L153.85 370.77l-65.745-13.53 14.325-63.022c.544-2.39 2.535-4.065 4.458-3.748z" fill="#FFF"/>
+            <path d="M36.052.043h153.6c2.74 0 4.346 2.89 3.587 6.455l-12.36 57.997c-.76 3.565-3.598 6.364-6.338 6.252L20.94 64.48c-2.741-.111-4.347-2.82-3.587-6.05l12.36-52.54c.76-3.229 3.598-5.847 6.338-5.847z" fill="#1E3D49"/>
+            <path d="m47.557 8.868 126.137.699c5.21.029 8.263 5.517 6.819 12.258-1.445 6.74-6.84 12.122-12.05 12.02l-126.137-2.48c-5.21-.103-8.263-5.192-6.819-11.367 1.445-6.176 6.84-11.159 12.05-11.13z" fill="#FFF"/>
+            <path d="m46.393 13.659 51.712.442c1.93.016 3.06 1.96 2.526 4.34l-1.066 4.741c-.535 2.38-2.533 4.284-4.463 4.252l-51.712-.861c-1.93-.032-3.06-1.92-2.526-4.215l1.066-4.572c.535-2.296 2.533-4.144 4.463-4.127z" fill="#FDCB5B"/>
+            <path d="M167.274 16.47c2.116.02 3.356 2.243 2.77 4.964-.587 2.72-2.778 4.9-4.894 4.867-2.116-.032-3.355-2.254-2.769-4.963.587-2.708 2.778-4.888 4.893-4.868z" fill="#1E3D49" fill-rule="nonzero"/>
+            <path d="M166.975 17.855c-1.52-.016-3.093 1.55-3.514 3.497-.422 1.946.469 3.542 1.988 3.564 1.52.022 3.094-1.543 3.515-3.496.421-1.953-.47-3.549-1.989-3.565z" fill="#FFF" fill-rule="nonzero"/>
+            <path d="M213.09 39.036c.248-.247.558-.262.725-.048l.038.059 1.954 3.518c.153.275.058.715-.211.982-.249.248-.56.262-.725.046l-.039-.058-1.954-3.519c-.152-.273-.057-.712.212-.98z" transform="translate(-45, -15)" fill="#1E3D49" fill-rule="nonzero"/>
+            <path d="m41.645 43.382 29.723.793c1.158.03 1.837 1.22 1.516 2.656l-.679 3.034c-.32 1.436-1.52 2.57-2.677 2.534l-29.724-.94c-1.158-.037-1.836-1.207-1.515-2.614l.678-2.972c.321-1.407 1.52-2.522 2.678-2.49zM81.949 44.457l37.325.996c1.158.03 1.837 1.253 1.516 2.73l-.679 3.123c-.32 1.477-1.52 2.645-2.678 2.609l-37.325-1.181c-1.158-.037-1.836-1.235-1.515-2.677l.678-3.046c.321-1.441 1.52-2.585 2.678-2.554zM3.662 42.378l26.8.715c1.157.031 1.836 1.191 1.515 2.592l-.679 2.96c-.32 1.4-1.52 2.506-2.677 2.469l-26.8-.848c-1.158-.037-1.836-1.18-1.515-2.554l.678-2.903c.321-1.373 1.52-2.462 2.678-2.43zM34.152 73.09l22.706 1.046c1.158.053 1.837 1.229 1.516 2.625l-.679 2.953c-.32 1.397-1.52 2.481-2.678 2.422l-22.706-1.158c-1.158-.059-1.836-1.22-1.515-2.594l.678-2.903c.321-1.373 1.52-2.444 2.678-2.39zM65.599 74.538l22.706 1.045c1.158.053 1.837 1.251 1.516 2.675l-.679 3.01c-.32 1.424-1.52 2.53-2.678 2.472l-22.706-1.158c-1.158-.06-1.836-1.243-1.515-2.644l.678-2.96c.321-1.401 1.52-2.493 2.678-2.44zM97.745 76.018l22.706 1.045c1.158.053 1.836 1.273 1.515 2.725l-.678 3.069c-.321 1.452-1.52 2.581-2.678 2.522l-22.706-1.158c-1.158-.059-1.837-1.265-1.516-2.694l.679-3.02c.32-1.428 1.52-2.543 2.678-2.49zM39.32 169.564c15.148 1.521 30.833-12.317 35.033-30.91 4.2-18.592-4.676-34.394-19.825-35.293-15.148-.9-30.833 12.938-35.033 30.908-4.2 17.97 4.676 33.773 19.825 35.295zM101.958 175.857c15.149 1.521 30.834-12.893 35.033-32.195 4.2-19.303-4.676-35.68-19.824-36.58-15.148-.9-30.833 13.514-35.033 32.195-4.2 18.68 4.676 35.058 19.824 36.58zM164.986 182.189c3.879-17.27 12.508-57.763 15.209-71.363-15.149-.9-30.834 14.093-35.033 33.489-4.2 19.395 4.676 36.352 19.824 37.874z" fill="#FDCB5B"/>
+            <path d="m287.758 21.967 175.16 1.975c3.125.039 5.06 3.362 4.322 7.422l-71.51 391.422c-.741 4.033-3.894 6.763-7.041 6.099L212.27 391.976c-3.146-.653-5.086-4.15-4.333-7.812L280.74 28.59c.752-3.69 3.894-6.655 7.019-6.624z" fill="#E3E3E3"/>
+            <path d="m293.948 42.352 67.03 1.445c2.201.049 3.56 2.292 3.035 5.01l-15.307 79.196c-.525 2.714-2.738 4.794-4.943 4.645l-67.14-4.514c-2.205-.147-3.564-2.382-3.035-4.991L289.005 47c.529-2.613 2.742-4.695 4.943-4.65zM272.969 146.198l67.163 5.16c2.206.171 3.568 2.509 3.043 5.222l-15.322 79.035c-.526 2.71-2.743 4.685-4.952 4.414l-67.273-8.228c-2.21-.269-3.571-2.598-3.042-5.202l15.431-75.982c.53-2.609 2.746-4.587 4.952-4.419zM251.97 249.827l67.296 8.875c2.21.292 3.576 2.725 3.05 5.433l-15.336 78.872c-.526 2.704-2.748 4.576-4.962 4.182l-67.405-11.942c-2.213-.39-3.578-2.814-3.048-5.412l15.445-75.82c.53-2.603 2.75-4.478 4.96-4.188zM230.953 353.235l67.428 12.588c2.214.415 3.583 2.942 3.057 5.644l-7.34 37.658-75.507-15.735 7.392-36.198c.53-2.597 2.755-4.37 4.97-3.957z" fill="#FFF"/>
+            <path d="m287.758 21.967 175.16 1.975c3.125.039 5.06 3.362 4.322 7.422l-6.927 38.09c-.739 4.058-3.873 7.25-7 7.13l-175.325-6.503c-3.127-.112-5.053-3.191-4.302-6.878l7.053-34.612c.752-3.69 3.894-6.655 7.019-6.624z" fill="#1E3D49"/>
+            <path d="m301.192 32.206 143.87 2.393c5.942.104 9.621 6.414 8.216 14.09-1.405 7.677-7.364 13.748-13.31 13.562l-143.94-4.362c-5.946-.174-9.609-6.03-8.181-13.082 1.428-7.052 7.402-12.695 13.345-12.601z" fill="#FFF"/>
+            <path d="m300.035 37.675 58.987 1.123c2.201.043 3.56 2.278 3.035 4.993l-1.045 5.407c-.525 2.714-2.736 4.866-4.938 4.806L297.07 52.42c-2.202-.058-3.559-2.23-3.03-4.85l1.052-5.221c.529-2.622 2.741-4.714 4.943-4.673z" fill="#FDCB5B"/>
+            <path d="m382.772 44.278 67.032 1.52c2.202.05 3.565 2.397 3.044 5.24l-15.174 82.823c-.521 2.84-2.73 5.018-4.936 4.866l-67.145-4.598c-2.205-.15-3.567-2.488-3.042-5.222l15.286-79.758c.524-2.738 2.734-4.919 4.935-4.87zM361.97 153.05l67.168 5.247c2.206.174 3.572 2.615 3.052 5.453L417 246.413c-.522 2.834-2.736 4.908-4.945 4.633l-67.28-8.326c-2.21-.272-3.575-2.704-3.05-5.433l15.301-79.599c.525-2.732 2.739-4.809 4.944-4.638zM341.148 261.604l67.304 8.975c2.21.296 3.58 2.832 3.058 5.664l-15.206 82.502c-.521 2.828-2.74 4.798-4.953 4.4l-67.415-12.054c-2.214-.395-3.582-2.922-3.057-5.644l15.316-79.437c.525-2.727 2.743-4.7 4.953-4.406zM320.306 369.935l67.438 12.704c2.215.419 3.587 3.05 3.065 5.876l-7.278 39.394-75.518-15.871 7.331-37.928c.526-2.721 2.747-4.59 4.962-4.175z" fill="#FFF"/>
+            <path d="m287.678 21.967 175.32 1.976c3.08.038 4.988 3.314 4.26 7.317L395.71 422.89c-.73 3.976-3.838 6.668-6.941 6.013L212.19 391.959c-3.102-.643-5.015-4.091-4.272-7.702l72.84-355.76c.74-3.638 3.838-6.562 6.92-6.53z" fill-opacity=".306" fill="#000"/>
+            <path d="m309.388 0 115.154 1.338c3.521.044 5.702 3.788 4.87 8.363l-71.171 389.564c-.835 4.544-4.386 7.62-7.933 6.873l-115.986-24.334L309.388 0z" fill="#FFF"/>
+            <path d="m264.005 4.424 92.9 2.737c2.202.066 3.566 2.424 3.045 5.267l-62.947 342.284c-.522 2.825-2.742 4.75-4.958 4.3l-93.486-18.92c-2.216-.447-3.585-2.985-3.058-5.67l63.565-325.22c.525-2.701 2.737-4.84 4.939-4.778z" fill="#FDCB5B"/>
+            <use stroke="#D3D3D3" mask="url(#B)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#a"/>
+            <use stroke="#D3D3D3" mask="url(#C)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#b"/>
+            <use stroke="#D3D3D3" mask="url(#D)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#c"/>
+            <use stroke="#D3D3D3" mask="url(#E)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#d"/>
+            <use stroke="#D3D3D3" mask="url(#F)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#e"/>
+            <use stroke="#D3D3D3" mask="url(#G)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#f"/>
+            <use stroke="#D3D3D3" mask="url(#H)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#g"/>
+            <use stroke="#D3D3D3" mask="url(#I)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#h"/>
+            <use stroke="#D3D3D3" mask="url(#J)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#i"/>
+            <use stroke="#D3D3D3" mask="url(#K)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#j"/>
+            <use stroke="#D3D3D3" mask="url(#L)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#k"/>
+            <use stroke="#D3D3D3" mask="url(#M)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#l"/>
+            <use stroke="#D3D3D3" mask="url(#N)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#m"/>
+            <use stroke="#D3D3D3" mask="url(#O)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#n"/>
+            <use stroke="#D3D3D3" mask="url(#P)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#o"/>
+            <use stroke="#D3D3D3" mask="url(#Q)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#p"/>
+            <use stroke="#D3D3D3" mask="url(#R)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#q"/>
+            <use stroke="#D3D3D3" mask="url(#S)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#r"/>
+            <use stroke="#D3D3D3" mask="url(#T)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#s"/>
+            <use stroke="#D3D3D3" mask="url(#U)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#t"/>
+            <use stroke="#D3D3D3" mask="url(#V)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#u"/>
+            <use stroke="#D3D3D3" mask="url(#W)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#v"/>
+            <path d="M166.547 94.635c4.149.227 8.445-3.944 9.595-9.317 1.15-5.373-1.28-9.875-5.43-10.056-4.149-.182-8.445 3.99-9.595 9.316-1.15 5.326 1.28 9.829 5.43 10.057zM146.262 93.52c4.149.229 8.445-3.891 9.595-9.201 1.15-5.31-1.28-9.762-5.43-9.943-4.148-.181-8.444 3.939-9.595 9.202-1.15 5.263 1.281 9.715 5.43 9.943z" fill="#FDCB5B"/>
+            <use stroke="#D3D3D3" mask="url(#X)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#w"/>
+            <use stroke="#D3D3D3" mask="url(#Y)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#x"/>
+            <use stroke="#D3D3D3" mask="url(#Z)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#y"/>
+            <use stroke="#D3D3D3" mask="url(#aa)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#z"/>
+            <use stroke="#D3D3D3" mask="url(#ab)" stroke-width="2" stroke-dasharray="3,3" xlink:href="#A"/>
+        </g>
+    </g>
+</svg>
