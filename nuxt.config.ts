@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true
   },
-  generate: {
-    routes: ['/roadmap']
-  },
   css: [
     '@/assets/styles/reset.scss',
     '@/assets/styles/fonts.scss',
